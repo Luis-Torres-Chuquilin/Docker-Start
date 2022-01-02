@@ -185,8 +185,9 @@ volumes:
 -v "$(pwd):/app") -->  volumes: 
                              - ./:/app <br>
 
-
+```
 used in: 
+
 ```
 docker run -dp 3000:3000 \
   -w /app -v "$(pwd):/app" \
