@@ -119,7 +119,7 @@ SHOW DATABASES
 To run a Specifict Database in our countainer,
 ```
 docker exec -it <mysql-container-id> mysql -p todos
-``
+```
 
 ### Using Bind Mounts for Local development setup
 
